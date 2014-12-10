@@ -15,4 +15,5 @@ RUN apt-get update && \
   wget -q -O - ${BOTARCHIVE} | tar xz -C /opt
 
 WORKDIR ${BOTDIR}
+
 RUN npm install
