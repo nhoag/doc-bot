@@ -3,7 +3,7 @@
 FROM ubuntu:14.04
 MAINTAINER Nathaniel Hoag, info@nathanielhoag.com
 
-ENV BOTVERSION 0.0.2
+ENV BOTVERSION 0.0.3
 ENV BOTDIR /opt/bot-${BOTVERSION}
 ENV BOTARCHIVE https://github.com/nhoag/bot/archive/${BOTVERSION}.tar.gz
 
