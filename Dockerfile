@@ -3,7 +3,7 @@
 FROM nhoag/nodejs
 MAINTAINER Nathaniel Hoag, info@nathanielhoag.com
 
-ENV BOTVERSION 0.0.4
+ENV BOTVERSION 0.0.5
 ENV BOTDIR /opt/bot-${BOTVERSION}
 ENV BOTARCHIVE https://github.com/nhoag/bot/archive/${BOTVERSION}.tar.gz
 
